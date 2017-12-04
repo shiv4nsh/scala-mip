@@ -1,5 +1,8 @@
 package com.foobar
 
-object Boot {
+import com.foobar.mip.MathematicalIntegerProgrammingDemo
 
+object Boot extends App {
+
+  new MathematicalIntegerProgrammingDemo().demo
 }
